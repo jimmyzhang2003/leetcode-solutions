@@ -4,3 +4,4 @@
 2. [Valid Parentheses [EASY]](https://leetcode.com/problems/valid-parentheses/)
 3. [Merge Two Sorted Linked Lists [EASY]](https://leetcode.com/problems/merge-two-sorted-lists/)
 4. [Best Time to Buy and Sell Stock [EASY]](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+5. [Valid Palindrome [EASY]](https://leetcode.com/problems/valid-palindrome/)
