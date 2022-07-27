@@ -6,3 +6,4 @@
 4. [Best Time to Buy and Sell Stock [EASY]](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 5. [Valid Palindrome [EASY]](https://leetcode.com/problems/valid-palindrome/)
 6. [Invert Binary Tree [EASY]](https://leetcode.com/problems/invert-binary-tree/)
+7. [Valid Anagram [EASY]](https://leetcode.com/problems/valid-anagram/)
