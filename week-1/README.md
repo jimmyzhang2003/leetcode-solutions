@@ -9,3 +9,4 @@
 7. [Valid Anagram [EASY]](https://leetcode.com/problems/valid-anagram/)
 8. [Binary Search [EASY]](https://leetcode.com/problems/binary-search/)
 9. [Flood Fill [EASY]](https://leetcode.com/problems/flood-fill/)
+10. [Maximum Subarray [MEDIUM]](https://leetcode.com/problems/maximum-subarray/)
