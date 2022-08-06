@@ -2,6 +2,7 @@
 # Time Complexity: O(N * M)
 # Space Complexity: O(N * M)
 
+## BFS
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         out = [[float('inf')] * len(mat[0]) for _ in range(len(mat))]
@@ -29,7 +30,7 @@ class Solution:
         return out
 
 
-# DP solution: O(1) space complexity
+## DP: O(1) space complexity
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         #checking top and left neighbors

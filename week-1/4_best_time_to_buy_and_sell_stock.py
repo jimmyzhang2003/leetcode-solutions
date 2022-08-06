@@ -17,7 +17,7 @@ class Solution:
     
         return currMax
 
-#Kadane's Algorithm
+## Kadane's Algorithm
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0
