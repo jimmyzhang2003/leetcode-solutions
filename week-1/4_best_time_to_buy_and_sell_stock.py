@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 # Time Complexity: O(N)
 # Space Complexity: O(1)
-
+# (Two Pointers)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         currMax = 0
@@ -17,7 +18,9 @@ class Solution:
     
         return currMax
 
-## Kadane's Algorithm
+# Time Complexity: O(N)
+# Space Complexity: O(1)
+# (Kadane's Algorithm)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0

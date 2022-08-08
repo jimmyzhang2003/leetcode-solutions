@@ -1,8 +1,8 @@
 # Link: https://leetcode.com/problems/k-closest-points-to-origin/
+
 # Time Complexity: O(N log K)
 # Space Complexity: O(K)
-
-## Max Heap
+# (Max Heap)
 import heapq
 
 class Solution:
@@ -19,7 +19,10 @@ class Solution:
             
         return [x[1] for x in heap]
 
-## Min Heap: O(N + k log N) time complexity, O(N) space complexity
+
+# Time Complexity: O(N + k log N)
+# Space Complexity: O(N)
+# (Min Heap)
 import heapq
 
 class Solution:
@@ -35,7 +38,9 @@ class Solution:
            
         return [heapq.heappop(heap)[1] for _ in range(k)]
 
-## Quick Select: O(N) average case and O(N^2) worse case time complexity, O(1) space complexity
+# Time Complexity: O(N) average case and O(N^2) worst case
+# Space Complexity: O(1)
+# (Quickselect)
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         def dist(point):

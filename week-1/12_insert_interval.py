@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/insert-interval/
+
 # Time Complexity: O(N)
 # Space Complexity: O(N)
-
+# (Array)
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:     
         out = []

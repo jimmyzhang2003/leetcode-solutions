@@ -1,6 +1,8 @@
 # Link: https://leetcode.com/problems/merge-two-sorted-lists/
+
 # Time Complexity: O(N+M)
 # Space Complexity: O(N+M)
+# (Linked List)
 
 # Definition for singly-linked list.
 # class ListNode:

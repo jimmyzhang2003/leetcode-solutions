@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/maximum-subarray/
+
 # Time Complexity: O(N)
 # Space Complexity: O(1)
-
+# (Two Pointers)
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         l, r = 0, 1
@@ -25,7 +26,9 @@ class Solution:
         
         return largestSum
 
-#Kadane's Algorithm
+# Time Complexity: O(N)
+# Space Complexity: O(1)
+# Kadane's Algorithm
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         maxSum = currSum = nums[0]

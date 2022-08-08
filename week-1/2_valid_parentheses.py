@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/valid-parentheses/
+
 # Time Complexity: O(N)
 # Space Complexity: O(N)
-
+# (Stack)
 class Solution:
     def isValid(self, s: str) -> bool:
         mapping = {')':'(', '}':'{', ']':'['}

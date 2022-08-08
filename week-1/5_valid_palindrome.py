@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/valid-palindrome/
+
 # Time Complexity: O(N)
 # Space Complexity: O(1)
-
+# (Two Pointers)
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         alphanumeric = 'abcdefghijklmnopqrstuvwxyz0123456789'

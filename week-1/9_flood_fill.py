@@ -1,7 +1,8 @@
 # Link: https://leetcode.com/problems/flood-fill/
+
 # Time Complexity: O(N)
 # Space Complexity: O(N)
-
+# (DFS)
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
         stack = [(sr, sc)]

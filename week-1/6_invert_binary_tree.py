@@ -1,6 +1,8 @@
 # Link: https://leetcode.com/problems/invert-binary-tree/
+
 # Time Complexity: O(N)
 # Space Complexity: O(1)
+# (DFS)
 
 # Definition for a binary tree node.
 # class TreeNode:
