@@ -1,14 +1,14 @@
 # Link: https://leetcode.com/problems/merge-two-sorted-lists/
 
-# Time Complexity: O(N+M)
-# Space Complexity: O(N+M)
-# (Linked List)
-
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+# Time Complexity: O(N+M)
+# Space Complexity: O(N+M)
+# (Linked List)
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode: 
         head = ListNode()

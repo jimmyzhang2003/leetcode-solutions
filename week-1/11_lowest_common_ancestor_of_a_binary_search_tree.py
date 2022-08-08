@@ -1,9 +1,5 @@
 # Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
-# Time Complexity: O(N)
-# Space Complexity: O(1)
-# (DFS)
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -11,6 +7,9 @@
 #         self.left = None
 #         self.right = None
 
+# Time Complexity: O(N)
+# Space Complexity: O(1)
+# (DFS)
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if p.val > root.val and q.val > root.val:
