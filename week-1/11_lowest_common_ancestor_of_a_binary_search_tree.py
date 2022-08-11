@@ -8,7 +8,7 @@
 #         self.right = None
 
 # Time Complexity: O(N)
-# Space Complexity: O(1)
+# Space Complexity: O(N)
 # (DFS)
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':

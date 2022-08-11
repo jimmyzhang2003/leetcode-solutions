@@ -8,7 +8,7 @@
 #         self.right = right
 
 # Time Complexity: O(N^2)
-# Space Complexity: O(1)
+# Space Complexity: O(N)
 # (DFS (Top-Down))
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
@@ -24,7 +24,7 @@ class Solution:
         return abs(self.getHeight(root.left) - self.getHeight(root.right)) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)
 
 # Time Complexity: O(N)
-# Space Complexity: O(1)
+# Space Complexity: O(N)
 # (DFS (Bottom-Up))
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:

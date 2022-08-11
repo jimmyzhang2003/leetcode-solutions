@@ -8,7 +8,7 @@
 #         self.right = right
 
 # Time Complexity: O(N)
-# Space Complexity: O(1)
+# Space Complexity: O(N)
 # (DFS)
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:

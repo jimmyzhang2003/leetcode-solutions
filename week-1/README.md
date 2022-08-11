@@ -18,3 +18,4 @@
 16. [Linked List Cycle [EASY]](https://leetcode.com/problems/linked-list-cycle/)
 17. [Implement Queue using Stacks [EASY]](https://leetcode.com/problems/implement-queue-using-stacks/)
 18. [First Bad Version [EASY]](https://leetcode.com/problems/first-bad-version/)
+19. [Ransom Note [EASY]](https://leetcode.com/problems/ransom-note/)
