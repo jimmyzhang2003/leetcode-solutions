@@ -1,7 +1,7 @@
 # Link: https://leetcode.com/problems/ransom-note/
 
 # Time Complexity: O(N + M)
-# Space Complexity: O(1)
+# Space Complexity: O(L) -> bounded by the size of the charset
 # (Hashmap)
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:

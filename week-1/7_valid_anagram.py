@@ -1,7 +1,7 @@
 # Link: https://leetcode.com/problems/valid-anagram/
 
 # Time Complexity: O(N)
-# Space Complexity: O(N)
+# Space Complexity: O(M) -> bounded by the size of the charset
 # (Hashmap)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:

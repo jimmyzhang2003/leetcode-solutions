@@ -19,3 +19,4 @@
 17. [Implement Queue using Stacks [EASY]](https://leetcode.com/problems/implement-queue-using-stacks/)
 18. [First Bad Version [EASY]](https://leetcode.com/problems/first-bad-version/)
 19. [Ransom Note [EASY]](https://leetcode.com/problems/ransom-note/)
+20. [Longest Substring Without Repeating Characters [MEDIUM]](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
