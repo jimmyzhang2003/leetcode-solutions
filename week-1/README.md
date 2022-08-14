@@ -20,3 +20,4 @@
 18. [First Bad Version [EASY]](https://leetcode.com/problems/first-bad-version/)
 19. [Ransom Note [EASY]](https://leetcode.com/problems/ransom-note/)
 20. [Longest Substring Without Repeating Characters [MEDIUM]](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+21. [3Sum [MEDIUM]](https://leetcode.com/problems/3sum/)
