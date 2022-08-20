@@ -29,7 +29,7 @@ class Solution:
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         used = {}
-        l = r = 0
+        l = 0
         maxLength = 0
         
         for r in range(len(s)):
