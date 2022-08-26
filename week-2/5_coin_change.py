@@ -24,7 +24,6 @@ class Solution:
         
         return ans if ans != float('inf') else -1
 
-
 # Time Complexity: O(N * A)
 # Space Complexity: O(A)
 # (DP (Bottom-Up))

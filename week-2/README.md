@@ -5,3 +5,4 @@
 3. [Course Schedule [MEDIUM]](https://leetcode.com/problems/course-schedule/)
 4. [Implement Trie (Prefix Tree) [MEDIUM]](https://leetcode.com/problems/implement-trie-prefix-tree/)
 5. [Coin Change [MEDIUM]](https://leetcode.com/problems/coin-change/)
+6. [Product of Array Except Self [MEDIUM]](https://leetcode.com/problems/product-of-array-except-self/)
