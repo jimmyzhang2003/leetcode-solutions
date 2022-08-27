@@ -6,3 +6,4 @@
 4. [Implement Trie (Prefix Tree) [MEDIUM]](https://leetcode.com/problems/implement-trie-prefix-tree/)
 5. [Coin Change [MEDIUM]](https://leetcode.com/problems/coin-change/)
 6. [Product of Array Except Self [MEDIUM]](https://leetcode.com/problems/product-of-array-except-self/)
+7. [Climbing Stairs [EASY]](https://leetcode.com/problems/climbing-stairs/)
