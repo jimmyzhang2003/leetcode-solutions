@@ -8,3 +8,4 @@
 6. [Product of Array Except Self [MEDIUM]](https://leetcode.com/problems/product-of-array-except-self/)
 7. [Climbing Stairs [EASY]](https://leetcode.com/problems/climbing-stairs/)
 8. [Longest Palindrome [EASY]](https://leetcode.com/problems/longest-palindrome/)
+9. [Min Stack [MEDIUM]](https://leetcode.com/problems/min-stack/)
