@@ -28,10 +28,10 @@ class MinStack:
 
     def pop(self) -> None:
         if self.stack[-1].val == self.minVal:
-            self.stack.pop(-1)
+            self.stack.pop()
             self.minVal = self.stack[-1].minVal if self.stack else float('inf')
         else:
-            self.stack.pop(-1)
+            self.stack.pop()
 
     def top(self) -> int:
         return self.stack[-1].val
@@ -54,10 +54,10 @@ class MinStack:
 
     def pop(self) -> None:
         if self.stack[-1][0] == self.minVal:
-            self.stack.pop(-1)
+            self.stack.pop()
             self.minVal = self.stack[-1][1] if self.stack else float('inf')
         else:
-            self.stack.pop(-1)
+            self.stack.pop()
 
     def top(self) -> int:
         return self.stack[-1][0]
