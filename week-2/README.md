@@ -10,3 +10,4 @@
 8. [Longest Palindrome [EASY]](https://leetcode.com/problems/longest-palindrome/)
 9. [Min Stack [MEDIUM]](https://leetcode.com/problems/min-stack/)
 10. [Reverse Linked List [EASY]](https://leetcode.com/problems/reverse-linked-list/)
+11. [Validate Binary Search Tree [MEDIUM]](https://leetcode.com/problems/validate-binary-search-tree/)
