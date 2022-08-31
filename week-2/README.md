@@ -11,3 +11,4 @@
 9. [Min Stack [MEDIUM]](https://leetcode.com/problems/min-stack/)
 10. [Reverse Linked List [EASY]](https://leetcode.com/problems/reverse-linked-list/)
 11. [Validate Binary Search Tree [MEDIUM]](https://leetcode.com/problems/validate-binary-search-tree/)
+12. [Number of Islands [MEDIUM]](https://leetcode.com/problems/number-of-islands/)
