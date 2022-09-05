@@ -53,12 +53,14 @@ class Solution:
 # Time Complexity: O(N * M)
 # Space Complexity: O(N * M)
 # (BFS Alternative Solution)
+from collections import deque
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         def inBounds(x, y, grid):
             return x >= 0 and x < len(grid) and y >= 0 and y < len(grid[0])
         
-        queue = []
+        queue = deque()
         freshOranges = 0
         minutes = 0
         
@@ -73,11 +75,11 @@ class Solution:
         dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]]
 
         while queue and freshOranges > 0:
-            nextLevel = []
+            nextLevel = deque()
             minutes += 1
             
             for _ in range(len(queue)):
-                x, y = queue.pop(0)
+                x, y = queue.popleft()
                     
                 for dx, dy in dirs:
                     xx, xy = x + dx, y + dy
