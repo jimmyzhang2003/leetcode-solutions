@@ -15,3 +15,4 @@
 13. [Rotting Oranges [MEDIUM]](https://leetcode.com/problems/rotting-oranges/)
 14. [Search in Rotated Sorted Array [MEDIUM]](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 15. [Combination Sum [MEDIUM]](https://leetcode.com/problems/combination-sum/)
+16. [Permutations [MEDIUM]](https://leetcode.com/problems/permutations/)
