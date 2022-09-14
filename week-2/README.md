@@ -16,3 +16,4 @@
 14. [Search in Rotated Sorted Array [MEDIUM]](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 15. [Combination Sum [MEDIUM]](https://leetcode.com/problems/combination-sum/)
 16. [Permutations [MEDIUM]](https://leetcode.com/problems/permutations/)
+17. [Merge Intervals [MEDIUM]](https://leetcode.com/problems/merge-intervals/)
