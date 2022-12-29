@@ -1,7 +1,7 @@
 # Link: https://leetcode.com/problems/generate-parentheses/
 
-# Time Complexity: O(4^n / √n)
-# Space Complexity: O(4^n / √n)
+# Time Complexity: O(4^N / √N)
+# Space Complexity: O(4^N / √N)
 # (Backtracking)
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
