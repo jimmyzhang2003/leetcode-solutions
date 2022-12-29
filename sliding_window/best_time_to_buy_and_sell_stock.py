@@ -2,21 +2,21 @@
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)
-# (Two Pointers)
+# (Sliding Window)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        currMax = 0
-        b, s = 0, 1
-    
-        while s < len(prices):
-            currMax = max(currMax, prices[s] - prices[b])
+        profit = 0
+        l, r = 0, 1
+
+        while r < len(prices):
+            profit = max(profit, prices[r] - prices[l])
             
-            if prices[b] > prices[s]:
-                b = s
-            
-            s += 1    
-    
-        return currMax
+            if prices[r] < prices[l]:
+                l = r
+                
+            r += 1
+
+        return profit
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)
