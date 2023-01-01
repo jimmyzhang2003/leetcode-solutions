@@ -1,6 +1,6 @@
 # Link: https://leetcode.com/problems/koko-eating-bananas/
 
-# Time Complexity: O(N log N)
+# Time Complexity: O(N log S)
 # Space Complexity: O(1)
 # (Binary Search)
 import math
