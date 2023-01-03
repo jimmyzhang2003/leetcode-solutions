@@ -1,4 +1,4 @@
-# Link: https://leetcode.com/problems/last-stone-weight/
+# Link: https://leetcode.com/problems/subsets/
 
 # Time Complexity: O(N * 2^N)
 # Space Complexity: O(N)
